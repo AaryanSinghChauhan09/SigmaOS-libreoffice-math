@@ -1,9 +1,16 @@
 [component]
 name = "SigmaOS-libreoffice-math"
-description = "SigmaOS LibreOffice Math - Formula editor and symbolic equation evaluator"
-version = "0.1.0"
 tier = 4
+stability = "beta"
+language = "rust"
+description = "Formula and equation editor with expression parser and evaluator"
+upstream = []
 
-[capabilities]
-contract_version = "1.0.0"
-principles = ["DRY", "KISS", "SOLID", "Arrange-Act-Assert", "Pristine-Sources", "Minimal-Kernel"]
+[contract]
+provides = ["formula-editor", "expression-parser"]
+depends_on = []
+
+[maturity]
+status = "Implemented"
+test_evidence = "cargo test --offline unit tests pass"
+next_milestone = "Symbolic simplification, matrix support, and ODF formula export"
