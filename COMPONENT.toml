@@ -1,6 +1,6 @@
 [component]
 name = "SigmaOS-libreoffice-math"
-description = "LibreOffice Math equation editor integration"
+description = "SigmaOS LibreOffice Math - Formula editor and symbolic equation evaluator"
 version = "0.1.0"
 tier = 4
 
